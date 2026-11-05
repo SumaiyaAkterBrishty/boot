@@ -1,7 +1,35 @@
-/* h1{
-    color: blueviolet;
-} */
-.parentdiv{
-    display: flex;
-    justify-content: space-between;
+   /* all common css start */
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+   }
+   ul,ol{
+    list-style-type: none;;
+   }
+   a,a:hover{
+    text-decoration: none;
+   }
+   h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+   }
+  /* all common css end */
+
+  /* header style css start */
+  #headerPart{
+    padding: 30px 0;
+  }
+.navbar-nav .nav-item{
+  margin-left: 46px;
 }
+.headerBtn a{
+    background: #5E3Bee;
+    color: #FFF;
+    padding: 11px 22px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+  /* header style css end */
